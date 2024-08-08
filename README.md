@@ -1,6 +1,6 @@
 # BOT XML OBOTICARIO AUTOMATICO
 
-Este projeto automatiza a extração e o processamento de documentos eletrônicos (XML) do site OBoticário, utilizando Selenium WebDriver para interagir com a interface web e scripts Python para mover e descompactar os arquivos baixados.
+Este projeto automatiza a extração e o processamento de documentos eletrônicos (XML) do site VarejoFacil, utilizando Selenium WebDriver para interagir com a interface web e scripts Python para mover e descompactar os arquivos baixados.
 
 ## Requisitos
 
