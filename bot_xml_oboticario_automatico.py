@@ -122,7 +122,7 @@ def get_xml():
         wait = WebDriverWait(driver, 30)
 
         # Abre o site
-        driver.get("https://cp10307.varejofacil.com/app/#/login")
+        driver.get("link do ambiente VarejoFacil")
 
         # Espera até que a página esteja carregada completamente
         wait.until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
@@ -132,11 +132,11 @@ def get_xml():
         try:
             username_field = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#username input')))
             username_field.click()
-            username_field.send_keys('setor fiscal')
+            username_field.send_keys('login')
 
             password_field = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#password input')))
             password_field.click()
-            password_field.send_keys('rps@317309')
+            password_field.send_keys('senha')
 
             botao_entrar = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="app"]/div[1]/section[2]/div/form/button')))
             botao_entrar.click()
